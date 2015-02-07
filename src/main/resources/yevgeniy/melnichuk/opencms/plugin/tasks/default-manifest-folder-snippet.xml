@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+    <files>
+        <file>
+            <destination>${resource}</destination>
+            <type>folder</type>
+            <uuidstructure>${uuid}</uuidstructure>
+            <datelastmodified>Tue, 02 Feb 1999 00:00:00 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 02 Feb 1999 00:00:00 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties />
+            <relations />
+            <accesscontrol />
+        </file>
+    </files>
+</export>

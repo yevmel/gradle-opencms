@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+    <files>
+        <file>
+            <source>${resource}</source>
+            <destination>${resource}</destination>
+            <type>${type}</type>
+            <uuidstructure>${uuid}</uuidstructure>
+            <uuidresource>${uuid}</uuidresource>
+            <datelastmodified>Tue, 05 Aug 2014 20:57:10 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 05 Aug 2014 20:57:10 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties />
+            <relations />
+            <accesscontrol />
+        </file>
+    </files>
+</export>

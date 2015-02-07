@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<export>
+    <info>
+        <creator>Admin</creator>
+        <opencms_version>9.0.1</opencms_version>
+        <createdate>Tue, 02 Feb 1999 00:00:00 GMT</createdate>
+        <infoproject>Offline</infoproject>
+        <export_version>7</export_version>
+    </info>
+    <module>
+        <name>${moduleName}</name>
+        <nicename>${moduleNicename}</nicename>
+        <group />
+        <class />
+        <description />
+        <version>${moduleVersion}</version>
+        <authorname><![CDATA[${moduleAuthor}]]></authorname>
+        <authoremail><![CDATA[${moduleAuthorEmail}]]></authoremail>
+        <datecreated />
+        <userinstalled />
+        <dateinstalled />
+        <dependencies />
+        <exportpoints>
+            <exportpoint uri="/system/modules/${moduleName}/classes/" destination="WEB-INF/classes/" />
+            <exportpoint uri="/system/modules/${moduleName}/lib/" destination="WEB-INF/lib/" />
+            <exportpoint uri="/system/modules/${moduleName}/tags/" destination="WEB-INF/tags/" />
+        </exportpoints>
+        <resources>
+            <resource uri="/system/modules/${moduleName}/" />
+        </resources>
+        <parameters />
+        <resourcetypes />
+    </module>
+
+    <files>
+        <file>
+            <destination>system</destination>
+            <type>folder</type>
+            <uuidstructure>a4061873-bba6-4178-a3c1-6c21a05e1940</uuidstructure>
+            <datelastmodified>Tue, 02 Feb 1999 00:00:00 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 02 Feb 1999 00:00:00 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties />
+            <relations />
+            <accesscontrol>
+                <accessentry>
+                    <uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+                    <flags>514</flags>
+                    <permissionset>
+                        <allowed>1</allowed>
+                        <denied>0</denied>
+                    </permissionset>
+                </accessentry>
+            </accesscontrol>
+        </file>
+        <file>
+            <destination>system/modules</destination>
+            <type>folder</type>
+            <uuidstructure>a4061873-bba6-4178-a3c1-6c21a05e1941</uuidstructure>
+            <datelastmodified>Tue, 02 Feb 1999 00:00:00 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 02 Feb 1999 00:00:00 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties />
+            <relations />
+            <accesscontrol>
+                <accessentry>
+                    <uuidprincipal>ROLE.WORKPLACE_USER</uuidprincipal>
+                    <flags>514</flags>
+                    <permissionset>
+                        <allowed>5</allowed>
+                        <denied>0</denied>
+                    </permissionset>
+                </accessentry>
+            </accesscontrol>
+        </file>
+        <file>
+            <destination>system/modules/${moduleName}</destination>
+            <type>folder</type>
+            <uuidstructure>a4061873-bba6-4178-a3c1-6c21a05e1942</uuidstructure>
+            <datelastmodified>Tue, 02 Feb 1999 00:00:00 GMT</datelastmodified>
+            <userlastmodified>Admin</userlastmodified>
+            <datecreated>Tue, 02 Feb 1999 00:00:00 GMT</datecreated>
+            <usercreated>Admin</usercreated>
+            <flags>0</flags>
+            <properties />
+            <relations />
+            <accesscontrol />
+        </file>
+    </files>
+</export>
